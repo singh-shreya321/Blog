@@ -1,8 +1,8 @@
-<h1 class="title">
+<h3 class="title">
  <strong>Title:</strong>
  <%= @post.title %>
 
-</h1>
+</h3>
 <p class ="date">
  Submitted <%= time_ago_in_words(@post.created_at) %>Ago
  <% if user_signed_in? %>
